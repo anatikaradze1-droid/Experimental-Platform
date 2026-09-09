@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin · Experimental Platform</title>
+  <link rel="stylesheet" href="css/app.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Experimental Platform</a>
+    <div class="top-actions">
+      <span id="modeBadge" class="badge"></span>
+      <button id="logoutBtn" class="ghost hidden">გასვლა</button>
+    </div>
+  </header>
+  <main id="adminApp" class="page"></main>
+
+  <script src="js/config.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
