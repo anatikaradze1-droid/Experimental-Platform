@@ -26,3 +26,4 @@ Universal browser-based experiment builder.
 8. Commit files to GitHub Pages.
 
 Never put a Supabase service-role/secret key in frontend code.
+Deployment retry
